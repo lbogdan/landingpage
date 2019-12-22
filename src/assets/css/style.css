@@ -1,0 +1,57 @@
+*{
+    font-family: Raleway;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../fonts/Raleway-Regular.ttf");
+}
+
+p{
+    line-height: 1.9;
+    margin-bottom: 20px;
+}
+
+.section-title{
+    font-size: 36px;
+    font-weight: 800;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 70px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.center{
+    display: inline-block;
+}
+
+.buy-btn{
+    display: block;
+    color: #000;
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 82px;
+    text-align: center;
+    text-transform: uppercase;
+    background-position: -97px 0;
+    width: 324px;
+    height: 82px;
+    margin: 0 auto;
+    background-color: #33adff;
+}
+
+.white{
+    color: white;
+}
+
+.icon-list li {
+    margin-top: -24px;
+    margin-left: -84px;
+    position: absolute;
+    top: 50%;
+    left: 84px;
+    list-style: none;
+}

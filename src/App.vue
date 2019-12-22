@@ -1,28 +1,39 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <b-container>
+      <b-row>
+        <b-col></b-col>
+        <b-col cols="10"><headline2 class="section-title text-center" text="Hallo meine kleine liebe welt Hallo meine kleine liebe welt Hallo meine kleine liebe welt Hallo meine kleine liebe welt"></headline2></b-col>
+        <b-col></b-col>
+      </b-row>
+
+      <b-row>
+        <b-col></b-col>
+        <b-col cols="10"><List></List></b-col>
+        <b-col></b-col>
+      </b-row>
+
+      <BuyButton text="hallo welt" url="http://www.google.com"></BuyButton>
+      <headline2 class="section-title txt-center white" text="hallo"></headline2>
+      </b-container>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Headline2 from "@/components/Headline2";
+import BuyButton from "@/components/BuyButton";
+import List from "@/components/List";
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Headline2,
+    BuyButton,
+    List,
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
