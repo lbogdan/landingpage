@@ -4,7 +4,7 @@
             <b-row>
                 <b-col>
                     <div class="floatRight">
-                        <img v-bind:src="url" width="100px" height="100px">
+                        <img v-bind:src="url"  width="100px" height="100px">
                     </div>
                 </b-col>
                 <b-col>
@@ -20,7 +20,7 @@
                 </b-col>
                 <b-col>
                     <div class="floatLeft">
-                        <img v-bind:src="url2" width="100px" height="100px">
+                        <b-img v-bind:src="url2" height="100%" width="100%"></b-img>
                     </div>
                 </b-col>
             </b-row>
